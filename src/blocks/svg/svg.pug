@@ -1,0 +1,8 @@
+mixin svg-img(classname, titlename, path, id)
+  svg(class=classname, role='img')&attributes(attributes)
+    title= titlename
+    use(id=`${classname}`, xlink:href= `${path}#${id}`)
+
+mixin svg-bg(classname, path, id)
+  svg(class=classname, aria-hidden='true')&attributes(attributes)
+    use(id=`${classname}`, xlink:href=`${path}#${id}`)

@@ -1,0 +1,20 @@
+mixin picture-retina(classname, name, alt="фото")
+  - var desktop = "min-width: 1150px";
+  - var tablet = "min-width: 768px";
+  - var mobile = "min-width: 320px";
+  picture(class=classname)
+    source(media=`(${desktop})`, srcset=`img/${name}-desktop.jpg 1x, img/${name}-desktop@2x.jpg 2x, img/${name}-desktop@3x.jpg 3x`)
+    source(media=`(${tablet})`, srcset=`img/${name}-tablet.jpg 1x, img/${name}-tablet@2x.jpg 2x, img/${name}-tablet@3x.jpg 3x`)
+    source(media=`(${mobile})`, srcset=`img/${name}-mobile.jpg 1x, img/${name}-mobile@2x.jpg 2x, img/${name}-mobile@3x.jpg 3x`)
+    img(src=`img/${name}-mobile.jpg`, alt=alt)
+
+
+mixin picture-img(classname, name, alt="Фото")
+  - var desktop = "min-width: 1150px";
+  - var tablet = "min-width: 768px";
+  - var mobile = "min-width: 320px";
+  picture(class=classname)
+    source(media=`(${desktop})`, srcset=`img/${name}-desktop.jpg`)
+    source(media=`(${tablet})`, srcset=`img/${name}-tablet.jpg`)
+    source(media=`(${mobile})`, srcset=`img/${name}-mobile.jpg`)
+    img(src=`img/${name}-mobile.jpg`, alt=alt)
