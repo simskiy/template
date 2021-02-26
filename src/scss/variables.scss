@@ -28,86 +28,15 @@ $color-gh:                    #24292e;
 
 // Семантические цвета
 
-$text-color:                  $gray-darkest;
-$text-color-muted:            $gray;
-$body-bg:                     $white;
-
-$link-color:                  $color-main;
-$link-color--hover:           darken($color-main, 15%);
-
-$border-color:                #ececec;
-$text-gray:                   #444444;
-$border-gray:                 #444444;
-$color-corp:                  #63d1bb;
-$color-corp_darken:           #56c3b2;
-$color-bg:                    #f9f9f9;
-$color-text:                  #444444;
-$color-gray-bg:               #f1f1f1;
-$color-footer-line:           #e5e5e5;
-$color-ico:                   #46c1ae;
-$modal-border:                #c6c6c6;
-
 
 
 // Базовая типографика
 
-$font-size:                   16px;
 
-$font-size-h1:                40px;
-$font-size-h2:                32px;
-$font-size-h3:                24px;
-$font-size-h4:                18px;
-$font-size-h5:                16px;
-$font-size-h6:                16px;
-
-$font-size-sm:                0.75em; // 12px от 16px
-
-$line-height:                 1.5;
-
-$typo-margin-vertical:        1em;
-
-$font-family:                 -apple-system, BlinkMacSystemFont, 'Roboto', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-$font-family--monospace:     SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
 // Georgia, Times New Roman, Times, serif
 
 
 
 // Ширины
 
-$screen-xs:                   $break_xs;
-$screen-sm:                   $break_sm;
-$screen-md:                   $break_md;
-$screen-lg:                   $break_lg;
-$screen-xl:                   $break_xl;
-// $screen-xxl:                  $break_xxl;
 
-$container-sm:                100%;
-$container-md:                100%;
-$container-lg:                $screen-lg - 30;
-$container-xl:                $screen-xl - 30;
-// $container-xxl:               $screen-xxl - 30;
-
-
-
-// Модульная сетка
-
-$grid-columns:                12;
-$grid-gutter-width:           30px;
-
-
-
-// Разное
-
-$field-padding-vertical:      5px;
-$field-padding-horizontal:    12px;
-
-$border-radius:               3px;
-$opacity:                     0.7;
-$transition-time:             0.3s;
-$shadow:                      0 4px 2px -2px rgba(0, 0, 0, 0.3);
-
-$menu-desktop-width:          $break_xs;
-$toggler-part-height:         2px;
-$toggler-part-bg-color:       #000;
-
-$z-index-modal:               100;
